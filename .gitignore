@@ -1,0 +1,105 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js
+landing/.next/
+landing/out/
+landing/build
+landing/dist
+
+# Production
+build
+dist
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+backend/env/
+backend/.env
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+backend/*.log
+landing/*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Prisma
+landing/prisma/migrations/
+
+# Large files
+design-vibe-4/
+design-vibe-4.zip
+*.zip
+*.tar.gz
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Build artifacts
+landing/.next/
+landing/out/
+backend/__pycache__/
+mobile/build/
+mobile/.dart_tool/
+
+# Package files
+package-lock.json (в некоторых случаях)
+
+# Secrets (IMPORTANT!)
+*.key
+*.pem
+secrets/
